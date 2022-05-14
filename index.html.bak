@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <title>Distribuições Linux</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- navbar -->
+        <div class="menu">
+			<!-- div abaixo é a logo -->
+			<div class="logo">
+				<a href="index.html">
+					<img src="img/tux-logo.webp">
+				</a>
+			</div>
+
+			<div class="title">
+				Distribuições Linux
+			</div>   
+			<div class="nav-list">
+				<ul>
+					<li><a href="index.html#sobre" id="whatis">O que é</a></li>
+					<li><a href="index.html#ubuntu" class="nav-link" id="ubuntu">Ubuntu</a></li>
+					<li><a href="index.html#mint" class="nav-link" id="mint">Mint</a></li>
+					<li><a href="index.html#debian" id="debian">Debian</a></li>
+					<li><a href="index.html#fedora" id="fedora">Fedora</a></li>
+					<li><a href="index.html#arch" id="arch">Arch</a></li>
+					<li><a href="index.html#gentoo" id="gentoo">Gentoo</a></li>
+					<li><a href="index.html#slackware" id="slackware">Slackware</a></li>
+				</ul>
+			</div>
+			
+       </div>
+        
+		<div class="content">
+			<div class="carrossel">
+				
+			</div>
+			<div class="debian-text">
+				
+			</div>
+		</div>
+    
+    </div>
+</body>
+</html>
