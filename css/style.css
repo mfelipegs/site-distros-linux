@@ -52,7 +52,7 @@
 
 .title {
 	color: #fbfbfd;
-	font-size: 26px;
+	font-size: 3.9vh;
 	left: 0%;
     margin: auto 0;
 	position: relative;
@@ -63,17 +63,62 @@
 
 .carrossel {
     width: 100%;
-    height: 85%;
+    height: 100%;
     top: 15%;
-
-    display: flex;
+	overflow: hidden;
+    display: inline-block;
     position: absolute;
     z-index: 1;
 }
 
-.carrossel img {
-    width: 100%;
-    height: auto;
+.carrossel .fotos {
+	width: 500%;
+    animation: animacao 20s infinite;
+}
+
+.carrossel .fotos img {
+    width: 19.9%;
+}
+.container-fluid { padding: 0 !important; }
+
+
+@keyframes animacao {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: -0%;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    95% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -400%;
+    }
+
 }
 
 .nav {
@@ -86,7 +131,7 @@
 
 .nav-list {
     font-family: 'IBM Plex Mono', Inconsolata, monospace;
-    font-size: 1.2em;
+    font-size: 2.6vh;
 }
 
 .nav-list li {
@@ -221,22 +266,6 @@ footer {
 	font-family: 'IBM Plex Mono Text', monospace;
 	position: relative;
 }
-
-/* .fatec_logo {
-    height: 100%;
-    width: 50%;
-    overflow: hidden;
-    position: relative;
-
-}
-
-.fatec_logo img {
-    height: 100%;
-    margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
- */
 
  .link {
     text-decoration: none;
